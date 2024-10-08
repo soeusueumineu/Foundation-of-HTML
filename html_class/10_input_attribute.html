@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <div>
+        <input type="text" name="" id="" value="ABC" />
+      </div>
+      <div>
+        <input type="text" name="" id="" value="ABC" readonly />
+        <!-- 읽기만 가능 (수정 X) -->
+      </div>
+      <div>
+        <input type="text" name="" id="" value="ABC" disabled />
+        <!-- 읽기만 가능 (수정 X), form 태그 이용시 전송 불가능 -->
+      </div>
+      <div>
+        <button type="submit">저장</button>
+      </div>
+    </form>
+    <div>
+      <input type="text" name="" id="" maxlength="6" />
+    </div>
+    <div>
+      <input
+        type="tel"
+        name=""
+        id=""
+        style="width: 100%"
+        placeholder="하이픈(-)없이 숫자만 입력하세요. ex) 01012345678"
+      />
+    </div>
+    <div>
+      <form action="">
+        <label for="userid">아이디</label>
+        <input type="text" id="userid" required autocapitalize="on" />
+        <label for="userpw">비밀번호</label>
+        <input type="password" id="userpw" required />
+        <button type="submit">저장</button>
+      </form>
+    </div>
+    <div>
+      <input type="text" name="email" autocapitalize="on" />
+    </div>
+    <div>
+      <input type="text" name="phone" autocapitalize="on" />
+    </div>
+    <div>
+      <input type="text" name="username" autocapitalize="on" />
+    </div>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <label for="">살고 있는 지역은?</label>
+    <select name="" id="">
+      <option value="02">서울</option>
+      <option value="051">부산</option>
+      <option value="064">제주</option>
+    </select>
+    <br />
+    <select name="" id="">
+      <option value="male">남자</option>
+      <option value="femael">여자</option>
+    </select>
+    <div>
+      <input type="radio" name="rdo_gender" id="male" />
+      <label for="male">남자</label>
+      <input type="radio" name="rdo_gender" id="female" />
+      <label for="female">여자</label>
+    </div>
+    <div>
+      <textarea name="" id="" style="width: 100%" rows="10"></textarea>
+    </div>
+    <div>
+      <fieldset>
+        <legend>개인정보</legend>
+        <div>
+          <label for="name">이름</label>
+          <input type="text" id="name" />
+        </div>
+        <div>
+          <label for="tel">연락처</label>
+          <input type="text" id="tel" />
+        </div>
+      </fieldset>
+    </div>
+    <div>
+      <input list="browsers" id="browsers1" />
+      <datalist id="browsers">
+        <option value="Internet Explorer">인터넷 익스플로러</option>
+        <option value="Chrome">크롬</option>
+        <option value="FireFox">파이어폭스</option>
+        <option value="Opera">오페라</option>
+        <option value="Safari">사파리</option>
+      </datalist>
+    </div>
+    <div>
+      <input list="browsers" id="browsers2" />
+    </div>
+    <!-- 여러군데에 사용하고 싶다면 datalist 사용 -->
+  </body>
+</html>

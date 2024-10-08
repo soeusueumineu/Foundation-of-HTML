@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 표 : table -->
+    <!-- 행 : tr -->
+    <!-- 셀 : td(데이터), th(열 제목) -->
+    <!-- thead : 제목이 들어가는 모든 tr태그들 -->
+    <!-- tbody : 데이터가 들어가는 모든 tr태그들 -->
+
+    <table>
+      <thead>
+        <tr>
+          <th>이름</th>
+          <th>연락처</th>
+          <th>이메일</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>우왁굳</td>
+          <td>010-2322-3232</td>
+          <td>ecvhao@naver.com</td>
+        </tr>
+        <tr>
+          <td>비챤</td>
+          <td>010-3423-4333</td>
+          <td>xoxv7@naver.com</td>
+        </tr>
+        <tr>
+          <td>고세구</td>
+          <td>010-4534-5432</td>
+          <td>segugo.zip@naver.com</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <table>
+      <thead>
+        <tr>
+          <th>학년</th>
+          <th>반</th>
+          <th>학생 수</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="3">1학년</td>
+          <td>1반</td>
+          <td>10명</td>
+        </tr>
+        <tr>
+          <!-- <td>1학년</td> -->
+          <td>2반</td>
+          <td>14명</td>
+        </tr>
+        <tr>
+          <!-- <td>1학년</td> -->
+          <td>3반</td>
+          <td>12명</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2">합계</td>
+          <!-- <td></td> -->
+          <td>36명</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
